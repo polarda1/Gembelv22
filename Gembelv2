@@ -514,8 +514,7 @@ def laporbug():
 	if asulo == "":
 		menu()
 	os.system('xdg-open https://wa.me/6285229323951?text=' +asulo)
-
-# KALO MAU NAMBAH? NAMBAH AJA JANGAN DI GANTI. #       
+  
 def hamz_bot():
     try:
         token = open('login.txt', 'r').read()
